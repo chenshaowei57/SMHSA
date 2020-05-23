@@ -90,9 +90,9 @@ class entityRelation(nn.Module):
         h_r = self.r_input_Linear(sequence_output)
 
         # entity extraction module
-        targetPredictInput = self.targetHidden2Tag(self.dropout(h_t))
+        targetPredictInput = self.targetHidden2Tag(h_t)
 
         # relation detection module
-        relationScore = self.relationAttention(self.dropout(h_r))
+        relationScore = self.relationAttention(h_r)
 
         return targetPredictInput, relationScore
