@@ -13,7 +13,7 @@ Source code of the paper "Attention as Relation: Learning Supervised Multi-head 
 #### Dataset and Pre-trained Embedding:
 Pre-trained Glove 840B Embedding: Download from https://nlp.stanford.edu/projects/glove/ 
 
-Dataset Download from https://pan.baidu.com/s/1X9PCc2_2iNsdwlYy3a7Xww with code "iexm".
+Dataset Download from https://drive.google.com/drive/folders/1VJVC18lPibxXCQOKN0BAKxgGm2qUXZHh?usp=sharing.
 
 
 #### How to run:
