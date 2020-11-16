@@ -233,7 +233,7 @@ def make_relation(R_tensor, instance_text, thred):
     return total_result
 
 
-def evaluate(test_set, args, model, output_file_path, mode):
+def evaluate(test_set, model, args, output_file_path, mode):
     pred_results = []
     gold_results = []
     relation_result = []
