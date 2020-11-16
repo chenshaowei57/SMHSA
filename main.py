@@ -384,7 +384,7 @@ def main(args):
     pretrain_word_embedding = pretrain["preTrainEmbedding"]
     embedding_dim = pretrain["emb_dim"]
 
-    model_params = model_param(word_alphabet, label_alphabet, label_alphabet, relation_alphabet, char_alphabet, pretrain_word_embedding, embedding_dim)
+    model_params = model_param(word_alphabet, label_alphabet, relation_alphabet, char_alphabet, pretrain_word_embedding, embedding_dim)
 
     # defined model
     logging.info("#### Building model ####")
